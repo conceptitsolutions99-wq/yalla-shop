@@ -3,7 +3,7 @@ import { CartProvider } from './context/CartContext';
 import { AuthProvider } from './context/AuthContext';
 import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import { useCart } from './context/CartContext';
-import { Toast } from './components/Toast';
+import Toast from './components/Toast';
 import Navbar from './components/Navbar';
 import BottomNav from './components/BottomNav';
 import HomePage from './pages/HomePage';
