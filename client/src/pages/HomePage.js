@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { ChevronRight } from 'lucide-react';
 import { useCart } from '../context/CartContext';
 import { getProducts, getStores, getCategories } from '../api';

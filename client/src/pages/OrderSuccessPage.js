@@ -1,5 +1,5 @@
 import React from 'react';
-import { CheckCircle, Check } from 'lucide-react';
+import { CheckCircle } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const OrderSuccessPage = () => (

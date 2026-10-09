@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Truck, Package, Gift, FileText, Monitor, Box, Check } from 'lucide-react';
+import { Gift, FileText, Monitor, Box, Check } from 'lucide-react';
 
 const PARCEL_CATEGORIES = [
   { key: 'Gifts', label: 'Gifts', icon: Gift },

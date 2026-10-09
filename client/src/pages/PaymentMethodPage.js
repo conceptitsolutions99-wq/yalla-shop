@@ -1,5 +1,5 @@
 import React from 'react';
-import { ChevronLeft, CreditCard, Check } from 'lucide-react';
+import { ChevronLeft, Check } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const PaymentMethodPage = () => (

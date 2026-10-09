@@ -1,6 +1,5 @@
 import React from 'react';
 import { CheckCircle } from 'lucide-react';
-import { useCart } from '../context/CartContext';
 
 const Toast = ({ message, onClose }) => {
   if (!message) return null;

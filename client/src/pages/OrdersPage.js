@@ -1,5 +1,5 @@
 import React from 'react';
-import { Package, Clock, MapPin, DollarSign } from 'lucide-react';
+import { Package, Clock, DollarSign } from 'lucide-react';
 
 const MOCK_ORDERS = [
   { id: 1001, status: 'Delivered', items: ['Organic Green Tea', 'Bread'], total: 28.99, date: '2026-09-28' },

@@ -180,9 +180,9 @@ router.post('/', auth, async (req, res) => {
 // @access  Private
 router.get('/', auth, async (req, res) => {
   try {
-    if (getIsConnected()) {
-      const { page = 1, limit = 10, status } = req.query;
+    const { page = 1, limit = 10, status } = req.query;
 
+    if (getIsConnected()) {
       const query = { user: req.userId };
       if (status) {
         query.orderStatus = status;

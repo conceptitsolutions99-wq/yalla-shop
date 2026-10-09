@@ -1,11 +1,10 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { ChevronLeft, Plus, Minus, ShoppingCart } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { useCart } from '../context/CartContext';
 
 const CartPage = () => {
-  const { items, removeItem, updateQty, totalAmount, totalCount, discount, originalTotal, addItem } = useCart();
-  const [note, setNote] = useState('');
+  const { items, removeItem, updateQty, totalAmount, totalCount, discount, originalTotal } = useCart();
   if (items.length === 0) {
     return (
       <div className="page" style={{ padding: 32, textAlign: 'center' }}>

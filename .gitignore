@@ -21,3 +21,6 @@ Thumbs.db
 
 # Vercel
 .vercel
+
+# Local env files (keep .env out of the repo; use Vercel env settings)
+.env*

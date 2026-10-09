@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { useParams, Link } from 'react-router-dom';
-import { ChevronLeft, Star, ShoppingCart, Heart } from 'lucide-react';
+import { Link } from 'react-router-dom';
+import { ChevronLeft, Star, ShoppingCart } from 'lucide-react';
 import { useCart } from '../context/CartContext';
 
 const MOCK_PRODUCT = {
@@ -8,7 +8,6 @@ const MOCK_PRODUCT = {
 };
 
 const ProductDetailPage = () => {
-  const { id } = useParams();
   const { addItem } = useCart();
   const [qty, setQty] = useState(1);
   const p = MOCK_PRODUCT;

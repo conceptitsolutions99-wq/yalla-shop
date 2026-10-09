@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import { ChevronLeft, Check, Truck, Utensils } from 'lucide-react';
+import { ChevronLeft, Truck, Utensils } from 'lucide-react';
 import { useCart } from '../context/CartContext';
 import { useNavigate } from 'react-router-dom';
 
 const CheckoutPage = () => {
-  const { items, totalAmount } = useCart();
+  const { totalAmount } = useCart();
   const navigate = useNavigate();
   const [deliveryType, setDeliveryType] = useState('Home');
   const [tip, setTip] = useState(0);

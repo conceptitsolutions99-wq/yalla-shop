@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import { Star, MapPin, Clock } from 'lucide-react';
 
 const StoreCard = ({ store }) => (

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { Eye, EyeOff, Lock, Mail, User, Phone, Check } from 'lucide-react';
+import { Eye, EyeOff } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
 
 const RegisterPage = () => {

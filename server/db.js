@@ -24,7 +24,7 @@ const memoryDb = {
       _id: '659000000000000000000001',
       phoneNumber: '1700000000',
       countryCode: '+880',
-      password: '$2a$10$X8L0q.Y0t.8kS5QeS1R.8.bU2b2qK9ZJbK2W.Yk1j4v7N1Z.v2L6a', // hashed 'password123'
+      password: '$2a$10$/WDxkszuTtUU474qkK2uQuB8k661Y6YmcziWq2zPJrql0wf79GfBS', // hashed 'password123'
       name: 'Sohel Chowdhury',
       email: 'sohel@example.com',
       avatar: 'https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=120&h=120&fit=crop',
@@ -37,7 +37,7 @@ const memoryDb = {
       _id: '659000000000000000000002',
       phoneNumber: '1800000000',
       countryCode: '+880',
-      password: '$2a$10$ExampleSaltHashForTestingOnly',
+      password: '$2a$10$/WDxkszuTtUU474qkK2uQuB8k661Y6YmcziWq2zPJrql0wf79GfBS', // hashed 'password123'
       name: 'Test User',
       email: 'test@example.com',
       avatar: 'https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=120&h=120&fit=crop',

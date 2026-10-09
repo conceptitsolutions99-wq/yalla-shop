@@ -1,9 +1,7 @@
 import React from 'react';
-import { Link, useLocation } from 'react-router-dom';
-import { Heart, ShoppingCart, MapPin, Bell, Search, Home, Star, List } from 'lucide-react';
+import { useLocation } from 'react-router-dom';
+import { MapPin, Bell, Search } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
-import { useCart } from '../context/CartContext';
-import logo from '../logo.svg';
 
 const Navbar = () => {
   const { logout } = useAuth();

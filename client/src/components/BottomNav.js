@@ -16,7 +16,7 @@ const BottomNav = () => {
     <nav className="bottom-nav">
       {tabs.map(({ path, icon: Icon, label, badge }) => (
         <NavLink key={path} to={path} className={({ isActive }) => isActive ? 'active' : ''} style={{ position: 'relative' }}>
-          <Icon size={22} strokeWidth={isActive => isActive ? 2.5 : 1.5} />
+          <Icon size={22} strokeWidth={2} />
           <span>{label}</span>
           {badge > 0 && <span className="badge">{badge}</span>}
         </NavLink>

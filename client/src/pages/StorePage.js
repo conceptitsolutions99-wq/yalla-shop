@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
-import { Link, useParams } from 'react-router-dom';
-import { Store, MapPin, Star, Clock, Search } from 'lucide-react';
+import { MapPin, Star, Clock, Search } from 'lucide-react';
 import ProductCard from '../components/ProductCard';
-import { getProducts, getStores } from '../api';
 
 const MOCK_PRODUCTS = [
   { id: 1, name: 'Fresh Apples', price: 5.99, originalPrice: 7.99, stock: 30, image: 'https://via.placeholder.com/150?text=Apples', rating: 4.5, unit: 'Kg', storeName: 'Yalla Grocery', category: 'Fruits' },
@@ -18,7 +16,6 @@ const MOCK_STORE = {
 };
 
 const StorePage = () => {
-  const { id } = useParams();
   const [categoryFilter, setCategoryFilter] = useState('All');
   const [search, setSearch] = useState('');
   const allProducts = MOCK_PRODUCTS;
